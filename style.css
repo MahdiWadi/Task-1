@@ -1,0 +1,348 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+/* Start header style */
+/* Header background image */
+.backimg{
+    background-image: url(img/showcase.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+/* Start Header text and slider and botoun   */
+.texth1{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 75px;
+}
+.butone{
+    border-radius: 7px;
+    background-color: #e0802b;
+    border: #e0802b 1px solid;
+    color: white;
+    width: 160px;
+    height: 48px;
+    text-align: center;
+}
+.slider{
+    text-align: center;
+    color: white;
+}
+.orgtext{
+    color: #e0802b;
+}
+/* End Header text and slider and botoun   */
+
+/*Start navbar style*/
+.navbar{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+
+}
+
+.space{
+  padding: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+.navbar ul li{
+  position: relative;
+}
+.navbar ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li:hover > ul,
+.navbar ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+
+.navbar ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+/*End navbar style*/
+/* End header style */
+
+/* Start  Achievements style */
+
+.Achievements{
+    background-color: #1c4a83;
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+    padding-top: 50px;
+    height: 400px;
+}
+.achievtext p
+{
+  font-size: 12px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.col{
+    border-left: #6a88ad solid 1px;
+}
+
+.icon{
+  text-align: center;
+
+}
+
+.num{
+    font-size: 25px;
+    font-weight: bold;
+}
+.no-border{
+  border-left: none;
+
+}
+
+/* End  Achievements style */
+/* Start About us style */
+.texth2{
+  padding-top: 70px;
+  color: #e0802b;
+}
+.textp2{
+  width: 85%;
+  color: #626263;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.buttow{
+  border-radius: 7px;
+  background-color: white;
+  border: #e0802b 1px solid;
+  color: #e0802b;
+  width: 160px;
+  height: 48px;
+  text-align: center;
+}
+/* End About us style */
+
+/* Start Our Services style*/
+.ourservices{
+  background-color: #e0802b;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.pthree{
+  font-size: 12px;
+  color: #f5d7bc;
+}
+.tione{
+  font-size:15px;
+  font-weight: bold;
+  color: white;
+}
+
+.ppp{
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f5d7bc;
+  width: 100%;
+}
+#ppp{
+  width: 65%;
+  margin: auto;
+}
+.hhh{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.mm{
+  padding-bottom: 35px;
+}
+/* End Our Services style*/
+/* Start Info style */
+.info{
+  padding-left: 100px;
+  background-color: #f4f4f4;
+}
+.butfour{
+    background-color: #f4f4f4;
+    color: #e0802b ;
+    border-radius: 7px;
+    border: 1px #e0802b solid;
+    width: 160px;
+    height: 48px;
+}
+.rt{
+  padding-bottom: 20px;
+}
+.icons{
+  width: 80%;
+  margin: auto;
+}
+.hhone{
+  padding-top: 80px;
+  color: #e0802b;
+  padding-bottom: 30px;
+}
+.ppone{
+  font-size: 12px;
+  padding-bottom: 30px;
+  color: #626263;
+}
+.just{
+  margin: auto;
+  width: 89%;
+}
+/* End Info style */
+
+/* Start News style */
+.news{
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+}
+.hpph{
+  text-align: center;
+  padding-bottom: 30px;
+  color: #2a89b6;
+}
+.phhp{
+  text-align: center;
+  font-size: 12px;
+  color: #626263;
+}
+.pic{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.hah{
+  padding-bottom: 20px;
+}
+.sas{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+
+}
+.nn{
+  padding-top: 15px;
+  font-size: 15px;
+  color: #5a6178;
+}
+.jjj{
+  display: inline;
+
+}
+.cc{
+  margin: 5px;
+}
+.viwe{
+  padding-top: 40px;
+  text-align: center;
+}
+.butttow{
+    border-radius: 7px;
+    background-color: white;
+    border: #e0802b 1px solid;
+    color: #e0802b;
+    width: 160px;
+    height: 48px;
+    text-align: center;
+}
+/* End News style */
+/* Start logo part */
+.logos{
+  text-align: center;
+}
+/* End logo part */
+/* Start contact us style  */
+.contactus{
+  background-color: #344457;
+}
+.both{
+  padding-top: 50px;
+  color: white;
+}
+#fname , #mail {
+  border-radius: 5px;
+  border: white 1px solid;
+  color: white;
+  background-color: #344457;
+}
+
+::placeholder {
+  color: white;
+}
+#submit {
+  border-radius: 7px;
+  background-color: #e0802b;
+  border: #e0802b 1px solid;
+  color: white;
+  width: 160px;
+  height: 48px;
+  text-align: center;
+}
+#com{
+  background-color: #344457	;
+  border-radius: 5px;
+  border: white solid 1px;
+}
+
+.behi{
+  display: inline;
+}
+.fas{
+  margin: 10px;
+}
+/* End contact us style */
+/* start footer style */
+.foot{
+  background-color: #1a242d;
+  color: white;
+  text-align: center;
+  height: 50px%;
+  width: 100%;
+  padding: 25px;
+}
+.right{
+  padding-bottom: 50px;
+
+}
+#submit{
+  display: block;
+  margin-top: 20px;
+
+}
+
+/* End footer style */
+.rr{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.bor:hover{
+  border-top:1px solid #ecb27d ;
+  border-left: 1px solid #ecb27d;
+  border-right:1px solid #ecb27d ;
+  border-bottom: 3px solid white;
+}
