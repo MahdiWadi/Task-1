@@ -1,0 +1,203 @@
+/*Start navbar style*/
+.navbar{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+
+}
+
+.space{
+  padding: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+.navbar ul li{
+  position: relative;
+}
+.navbar ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+
+.navbar ul li:hover > ul,
+.navbar ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+
+.navbar ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+/*End navbar style*/
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.backimg{
+  background-image: url(img/pngtree-artificial-intelligence-touch-technology-background-image-image_187856.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
+.text{
+  display: inline-block;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+.text h1{
+
+  padding-bottom: 30px;
+}
+.text1 h1{
+
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 50px;
+
+}
+.num{
+  color: #9b9b9b;
+  font-size: 100px;
+  opacity: 0.2;
+}
+.divnum{
+
+  width: 60%;
+  text-align: center;
+}
+
+.text1 h4{
+  padding-left: 50px;
+  margin: auto;
+  width: 60%;
+  color: #e0802b;
+  padding-bottom: 30px;
+  text-align: left;
+  border-left: 1px #e0802b solid;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.text1 p{
+  width: 70%;
+  text-align: left;
+  color: #a0a0a0;
+  font-size: 11px;
+  margin-left: auto;
+}
+
+.wedo{
+  background-color: #e0802b;
+  color: white;
+}
+.aaa{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20%;
+  font-size: 50px;
+  text-align: center;
+}
+.centerp h3{
+  margin-top: 10%;
+  font-weight: bold;
+  width: 60%;
+  padding-bottom: 10px;
+}
+.centerp p {
+font-size: 12px;
+width: 80%;
+}
+.nn{
+  margin-top: 20%;
+}
+
+.bor{
+  padding-left: 20px;
+  border-left: 1px solid white;
+
+}
+.whowe{
+  color: #9b9b9b;
+}
+.tit{
+  margin-left: 5%;
+  width: 50%;
+}
+.pphh{
+  margin-left: 15%;
+}
+/* Start contact us style  */
+.contactus{
+  background-color: #344457;
+}
+.both{
+  padding-top: 50px;
+  color: white;
+}
+#fname , #mail {
+  border-radius: 5px;
+  border: white 1px solid;
+  color: white;
+  background-color: #344457;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+#submit {
+  border-radius: 7px;
+  background-color: #e0802b;
+  border: #e0802b 1px solid;
+  color: white;
+  width: 160px;
+  height: 48px;
+  text-align: center;
+}
+#com{
+  background-color: #344457	;
+  border-radius: 5px;
+  border: white solid 1px;
+}
+
+.behi{
+  display: inline;
+}
+.fas{
+  margin: 10px;
+}
+/* End contact us style */
+/* start footer style */
+.foot{
+  background-color: #1a242d;
+  color: white;
+  text-align: center;
+  height: 50px%;
+  width: 100%;
+  padding: 25px;
+}
+.right{
+  padding-bottom: 50px;
+
+}
+#submit{
+  display: block;
+  margin-top: 20px;
+
+}
+
+/* End footer style */
