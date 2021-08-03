@@ -49,7 +49,7 @@ body{
   background-image: url(img/pngtree-artificial-intelligence-touch-technology-background-image-image_187856.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
+  height: 100vh;
 }
 .text{
   display: inline-block;
@@ -59,7 +59,7 @@ body{
   font-size: 15px;
 }
 .text h1{
-
+padding-top: 90px;
   padding-bottom: 30px;
 }
 .text1 h1{
